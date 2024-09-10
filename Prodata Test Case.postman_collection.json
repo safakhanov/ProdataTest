@@ -76,7 +76,7 @@
 							"    pm.expect(pm.response.code).to.eql(400)\r",
 							"})\r",
 							"pm.test(\"Check Post Status  ContactUs\",()=>{\r",
-							"    pm.expect(pm.response.status).to.eql(\"OK\")\r",
+							"    pm.expect(pm.response.status).to.eql(\"Bad Request\")\r",
 							"})\r",
 							"pm.test(\"Check Status Time ContactUS\",()=>{\r",
 							"    pm.expect(pm.response.code).to.be.below(500)\r",
@@ -135,7 +135,7 @@
 							"    pm.expect(pm.response.code).to.eql(400)\r",
 							"})\r",
 							"pm.test(\"Check Post Status  ContactUs\",()=>{\r",
-							"    pm.expect(pm.response.status).to.eql(\"OK\")\r",
+							"    pm.expect(pm.response.status).to.eql(\"Bad Request\")\r",
 							"})\r",
 							"pm.test(\"Check Status Time ContactUS\",()=>{\r",
 							"    pm.expect(pm.response.code).to.be.below(500)\r",
@@ -194,7 +194,7 @@
 							"    pm.expect(pm.response.code).to.eql(400)\r",
 							"})\r",
 							"pm.test(\"Check Post Status  ContactUs\",()=>{\r",
-							"    pm.expect(pm.response.status).to.eql(\"OK\")\r",
+							"    pm.expect(pm.response.status).to.eql(\"Bad Request\")\r",
 							"})\r",
 							"pm.test(\"Check Status Time ContactUS\",()=>{\r",
 							"    pm.expect(pm.response.code).to.be.below(500)\r",
@@ -213,7 +213,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"email\":\"5116\"\r\n    \r\n}",
+					"raw": "{\r\n    \"email\":\"5116\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
